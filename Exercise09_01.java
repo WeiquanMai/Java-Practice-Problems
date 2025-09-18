@@ -1,5 +1,6 @@
 /*
     Problem 9.1 
+    Program tests the Rectangle class, which is defined in a separate file, Rectangle.java
     Design a class named Rectangle to represent a rectangle.
     The class contains:
         Two double data fields named width and height that specify the width and height of the rectangle
@@ -11,7 +12,7 @@
         Write a test program that creates two Rectangle objects- one with width 4 and height 40, and one with width 3.5 and height 35.9.
         Display the width, height, area, and perimeter of each rectangle in this order.
  */
-public class Main {
+public class Exercise09_01{
         public static void main(String[] args){
             Rectangle rectangle1 = new Rectangle(4.0, 40.0);
             Rectangle rectangle2 = new Rectangle(3.5,35.9);
