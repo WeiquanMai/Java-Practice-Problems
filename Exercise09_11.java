@@ -35,5 +35,8 @@ public class Exercise09_11 {
         else{
             System.out.println("This equation has no solution.");
         }
+
+        // Close scanner
+        input.close();
     }
 }
