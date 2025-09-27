@@ -1,5 +1,6 @@
 /*
     Problem 9.13
+    Program tests the Location class, which is defined in a separate file, Location.java
     
     Design a class named Location for locating a maximal value and its location in a two-dimensional array.
     The class contains public data fields, row, column, and maxValue that store the maximal value and its indices in a two-dimensional array
