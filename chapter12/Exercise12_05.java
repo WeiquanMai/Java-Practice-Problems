@@ -1,5 +1,7 @@
 /*
     Problem 12.5
+    Problem 12.5 utilizes the GeometricObject, Triangle, and IllegalTriangleException classes.
+    These classes are defined in separate files under GeometricObject.java, Triangle.java, and IllegalTriangleException.java.
 
     Programming Exercise 11.1 defined the Triangle class with three sides.
     In a triangle, the sum of any two sides is greater than the third side.
