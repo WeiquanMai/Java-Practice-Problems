@@ -1,6 +1,6 @@
 /*
     Problem 11.1
-    Program tests the Triangle class, which is defined in a separate file, Triangle.java
+    Program utilizes the GeometricObject and Triangle classes, which are defined in separate files: GeometricObject.java and Triangle.java
 
     Design a class named Triangle that extends GeometricObject.
     The class contains:
