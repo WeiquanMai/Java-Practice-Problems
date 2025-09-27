@@ -1,5 +1,6 @@
 /*
     Problem 9.11
+    Program tests the LinearEquation class, which is defined in a separate file, LinearEquation.java
     
     A linear equation can be solved using Cramer's rule.
     Design a class named LinearEquation for a 2x2 system of linear equations.
