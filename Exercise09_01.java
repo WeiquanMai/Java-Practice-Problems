@@ -1,6 +1,7 @@
 /*
     Problem 9.1 
     Program tests the Rectangle class, which is defined in a separate file, Rectangle.java
+    
     Design a class named Rectangle to represent a rectangle.
     The class contains:
         Two double data fields named width and height that specify the width and height of the rectangle
