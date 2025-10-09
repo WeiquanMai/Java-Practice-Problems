@@ -1,5 +1,6 @@
 /**
  * Problem 19.4
+ * Problem 19.4 utilizes the Pair class, which is defined in a separate file: Exercise 19_03.java.
  *
  * (Using wildcards) Write a generic static method that returns the smallest value in an instance of Pair from Programming Exercise 19.3.
  * @param <E> generic object type
