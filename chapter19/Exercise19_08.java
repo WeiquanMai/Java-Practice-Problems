@@ -21,7 +21,12 @@ public class Main{
         System.out.println(list);
 
     }
-    public static <E> void shuffle(ArrayList<E> list){
+    public static <E> void shuffle(ArrayList<E> list) throws NullPointerException{
+
+        // Throw an exception if list is null
+        if(list == null){
+            throw new NullPointerException("List is null");
+        }
         // Create a random object
         Random random = new Random();
 
