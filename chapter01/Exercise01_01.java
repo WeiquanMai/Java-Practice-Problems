@@ -1,5 +1,6 @@
 /**
  * @Author Weiquan Mai
+ * (Display three messages)
  * Problem 1.1
  * Write a program that displays Welcome to Java, Learning Java Now, and Programming is fun.
  */
