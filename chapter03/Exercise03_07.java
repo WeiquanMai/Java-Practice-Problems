@@ -15,7 +15,7 @@ public class Exercise03_07 {
         Scanner input = new Scanner(System.in);
 
         // Ask user to input amount
-        System.out.print("Enter an amount in doule, for example 11.56: ");
+        System.out.print("Enter an amount in double, for example 11.56: ");
         double amount = input.nextDouble();
         int remainingAmount = (int) (amount * 100);
 
