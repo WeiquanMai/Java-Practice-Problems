@@ -26,7 +26,7 @@ public class Exercise05_21 {
             loanAmount = input.nextDouble();
         }
         while(numberOfYears < 0){
-            System.out.println("Invalid number of years. Please enter an amount greater than 0: ");
+            System.out.print("Invalid number of years. Please enter an amount greater than 0: ");
             numberOfYears = input.nextInt();
         }
 
