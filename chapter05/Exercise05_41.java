@@ -20,12 +20,14 @@ public class Exercise05_41 {
         Scanner input = new Scanner(System.in);
 
         // Variables
-        int max = 0;
         int count = 1;
 
         // Ask user to input number stream
         System.out.print("Enter numbers: ");
         int number = input.nextInt();
+        int max = number;
+
+        number = input.nextInt();
 
         // Read in input until it encounters 0
         while(number != 0){
