@@ -42,6 +42,11 @@ public class Exercise06_28 {
         return true;
     }
 
+    /**
+     * Displays the mersennePrime number
+     * @param number prime number
+     * @return Mersenne number
+     */
     public static int mersennePrime(int number){
         return ((int) Math.pow(2, number) )- 1;
     }
