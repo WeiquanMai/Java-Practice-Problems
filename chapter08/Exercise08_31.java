@@ -40,7 +40,7 @@ public class Exercise08_31 {
         }
         else{
             double[] result = getIntersectingPoint(points);
-            System.out.printf("The intersecting point is at (%.1f, %.1f", result[0], result[1]);
+            System.out.printf("The intersecting point is at (%.1f, %.1f)", result[0], result[1]);
         }
 
         // Close Scanner
