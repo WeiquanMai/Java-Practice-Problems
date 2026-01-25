@@ -47,6 +47,11 @@ public class Exercise08_31 {
         input.close();
     }
 
+    /**
+     * Obtain the intersecting point between two lines
+     * @param points Array of 4 by 2 two-dimensional array representing the four points of two lines
+     * @return Intersecting point of the two lines, or null if the two lines are parallel
+     */
     public static double[] getIntersectingPoint(double[][] points){
         // Calculate intersecting point
         // (points[0][0], points[0][1]) for (x1, y1)
