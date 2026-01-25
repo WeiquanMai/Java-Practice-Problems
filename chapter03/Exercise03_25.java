@@ -45,7 +45,7 @@ public class Exercise03_25 {
 
         // Calculate x and y
         double x = ((e * d) - (b * f)) / ((a * d) - (b * c));
-        double y = ((a * f) - (e * c)) / ((a * d) - (b * c));
+        double y = ((e * c) - (a * f)) / ((a * d) - (b * c));
 
         // Calculate determinant
         double determinant = (a * d) - (b * c);
