@@ -71,7 +71,7 @@ public class Exercise08_31 {
         else{
             // Calculate x and y
             double x = ((e * d) - (b * f)) / ((a * d) - (b * c));
-            double y = ((a * f) - (e * c)) / ((a * d) - (b * c));
+            double y = ((e * c) - (a * f)) / ((a * d) - (b * c));
             return new double[]{x, y};
         }
 
