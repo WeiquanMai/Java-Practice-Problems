@@ -44,6 +44,11 @@ public class Exercise08_32 {
         input.close();
     }
 
+    /**
+     * Calculates area of triangle that is denoted by 3 points
+     * @param points Two-dimensional array representing the three points of a triangle
+     * @return Area of a triangle, or 0 if all 3 points are on the same line
+     */
     public static double getTriangleArea(double[][] points){
         // Obtain the sides
         double side1 = Math.pow(((Math.pow((points[1][0] - points[0][0]), 2))
