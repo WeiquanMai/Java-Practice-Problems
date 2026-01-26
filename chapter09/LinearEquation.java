@@ -53,7 +53,7 @@ public class LinearEquation {
     }
 
     public double getY(){
-        double y = ((getA() * getF()) - (getE() * getC()))/ ((getA() * getD()) - (getB() * getC()));
+        double y = ((getE() * getC()) - ((getA() * getF()))/ ((getA() * getD()) - (getB() * getC())));
         return y;
     }
 }
