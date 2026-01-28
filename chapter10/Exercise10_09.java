@@ -1,0 +1,44 @@
+/**
+ * @author Weiquan Mai
+ * Problem 10.9
+ * (The Course class)
+ * Revise the Course class as follows:
+ * ■ Revise the getStudents() method to return an array whose length is the
+ * same as the number of students in the course. (Hint: create a new array and
+ * copy students to it.)
+ * ■ The array size is fixed in Listing 10.6. Revise the addStudent method to
+ * automatically increase the array size if there is no room to add more students.
+ * This is done by creating a new larger array and copying the contents of the
+ * current array to it.
+ * ■ Implement the dropStudent method.
+ * ■ Add a new method named clear() that removes all students from the course.
+ * Write a test program that creates a course, adds three students, removes one, and
+ * displays the students in the course.
+ */
+public class Exercise10_09 {
+    public static void main(String[] args){
+        Course course1 = new Course("Data Structures");
+        course1.addStudent("Peter");
+        course1.addStudent("Kim");
+        course1.addStudent("Anne");
+        System.out.println("Number of students in course1: " + course1.getNumberOfStudents());
+        String[] students = course1.getStudents();
+        for(int i = 0; i < course1.getNumberOfStudents(); i++){
+            System.out.print(students[i] + ", ");
+        }
+        System.out.println();
+        System.out.println("Dropping Peter: ");
+        course1.dropStudent("Peter");
+        students = course1.getStudents();
+        for(int i = 0; i < course1.getNumberOfStudents(); i++){
+            System.out.print(students[i] + ", ");
+        }
+        System.out.println();
+        System.out.println("Clearing course");
+        course1.clear();
+        students = course1.getStudents();
+        for(int i = 0; i < course1.getNumberOfStudents(); i++){
+            System.out.print(students[i] + ", ");
+        }
+    }
+}
