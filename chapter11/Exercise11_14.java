@@ -2,7 +2,7 @@
  * @author Weiquan Mai
  * Problem 11.14
  * (Combine two lists)
- * Write a method that return sthe union of two array lists of integers
+ * Write a method that returns the union of two array lists of integers
  * using the following header:
  * public static ArrayList<Integer> union(ArrayList<Integer> list1, ArrayList<Integer> list2)
  *
